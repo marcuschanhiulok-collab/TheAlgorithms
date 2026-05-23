@@ -18,14 +18,12 @@ body:
       placeholder: "a0b0f414ae134aa1772d33bb930e5a960f9979e8"
     validations:
       required: true
-
   - type: input
     attributes:
       label: "Python version (python --version)"
       placeholder: "Python 3.10.7"
     validations:
       required: true
-
   - type: textarea
     attributes:
       label: "Dependencies version (pip freeze)"
@@ -39,16 +37,15 @@ body:
         ...
     validations:
       required: true
-
   - type: textarea
     attributes:
       label: "Expected behavior"
       description: "Describe the behavior you expect. May include images or videos."
     validations:
       required: true
-
   - type: textarea
     attributes:
       label: "Actual behavior"
     validations:
       required: true
+
